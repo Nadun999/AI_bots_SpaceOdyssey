@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='login.css')}}" />
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <div class="loginpage-container">
+          <div class="loginpage-loginpage">
+            <img
+              src="..\static\wallpaperflare.com_wallpaper 1.png"
+              alt="wallpaperflarecomwallpaper18413"
+              class="loginpage-wallpaperflarecomwallpaper1"
+            />
+
+            <img
+            src="../static/LogoSample_ByTailorBrands (8) 3.png"
+            alt="LogoSampleByTailorBrands828050"
+            class="loginpage-logo-sample-by-tailor-brands82"
+            />
+
+            <span class="loginpage-text06"><span>About</span></span>
+            <span class="loginpage-text08"><span>Contact</span></span>
+            <span class="loginpage-text10"><span>Home</span></span>
+            
+            <a href='{{ url_for("register") }}' class="btn"> Sign UP </a>
+              
+            
+            
+            <form class="loginpage-group21" action="{{ url_for('login') }}" method="POST">
+              <div class="msg">{{ msg }}</div>
+
+                <label for="username"></label>
+                <input type="text" class="loginpage-rectangle2" placeholder="username" id="username" name="username">
+                
+                <label for="Password"></label>
+                <input type="password" class="loginpage-rectangle3" placeholder="Password" id="password" name="password">
+              
+                <button type="submit"  class="loginpage-rectangle5">Login</button>
+                
+
+            </form>
+
+
+            
+           
+
+          
+            <span class="loginpage-text14">
+              <span>To the Infinity and Beyond 🚀</span>
+            </span>
+            <div class="loginpage-footer">
+              <span class="loginpage-text16">
+                <span>© 2007–2023, Aviasales</span>
+              </span>
+              <div class="loginpage-footer1">
+                <img
+                  src="/rectangle1788632-nrpa-200w.png"
+                  alt="Rectangle1788632"
+                  class="loginpage-rectangle178"
+                />
+                <img
+                  src="/rectangle1808632-t4i7-200w.png"
+                  alt="Rectangle1808632"
+                  class="loginpage-rectangle180"
+                />
+                <img
+                  src="/rectangle1798632-2k0y-200w.png"
+                  alt="Rectangle1798632"
+                  class="loginpage-rectangle179"
+                />
+                <span class="loginpage-text18"><span>Privacy Policy</span></span>
+                <span class="loginpage-text20"><span>Support</span></span>
+                <span class="loginpage-text22"><span>Cookie policy</span></span>
+                <span class="loginpage-text24"><span>Terms of use</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body> 
+</html>
