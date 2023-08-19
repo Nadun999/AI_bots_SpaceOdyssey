@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='./signup.css')}}" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="signup-container">
+        <div class="signup-signup">
+          <img
+            src="..\static\wallpaperflare.com_wallpaper 1.png"
+            alt="wallpaperflarecomwallpaper18413"
+            class="signup-wallpaperflarecomwallpaper1"
+          />
+          <img
+            src="../static/LogoSample_ByTailorBrands (8) 3.png"
+            alt="LogoSampleByTailorBrands838050"
+            class="signup-logo-sample-by-tailor-brands83"
+          />
+          <p align="center"><a href='{{ url_for("login") }}' ><button class="signup-rectangle8">Login</button></a></p>
+          <span class="signup-text02"><span>About</span></span>
+          <span class="signup-text04"><span>Contact</span></span>
+          <span class="signup-text06"><span>Home</span></span>
+          <img
+            src="/rectangle46318-m5n8-200h.png"
+            alt="Rectangle46318"
+            class="signup-rectangle4"
+          />
+          <span class="signup-text08">
+            <span>To the Infinity and Beyond 🚀</span>
+          </span>
+          
+          <span class="signup-text10"><span>NEXT</span></span>
+          <!-- <span class="signup-text12"><span>BACK</span></span> -->
+          <!-- <span class="signup-text14"><span>Name</span></span> -->
+          <!-- <span class="signup-text16"><span>Email address</span></span> -->
+          <!-- <span class="signup-text18"><span>Password</span></span>
+          <span class="signup-text20"><span>Confrim Password</span></span> -->
+         
+          <button >login</button>
+
+          <form action="{{ url_for('register') }}" method="post">
+            <div class="msg">{{ msg }}</div>
+            <label for="username"></label>
+            <input type="text"  placeholder="username" class="signup-rectangle11" id="username" name="username">
+      
+            <label for="email"></label>
+            <input type="email" class="signup-rectangle2" placeholder="Email" id="email" name="email">
+            
+            <label for="Password"></label>
+            <input type="password" class="signup-rectangle12" placeholder="Password" id="password" name="password">
+
+            <input type="submit" class="signup-rectangle14" value="Sign Up">
+          </form>
+          <p align="center"><a href='{{ url_for("login") }}' ><button class="signup-rectangle5">Back</button></a></p>
+
+          
+          <div class="signup-footer">
+            <span class="signup-text22"><span>© 2007–2023, Aviasales</span></span>
+            <div class="signup-footer1">
+              <img
+                src="/rectangle1788631-ufpi-200w.png"
+                alt="Rectangle1788631"
+                class="signup-rectangle178"
+              />
+              <img
+                src="/rectangle1808631-rt8m-200w.png"
+                alt="Rectangle1808631"
+                class="signup-rectangle180"
+              />
+              <img
+                src="/rectangle1798631-gzff-200w.png"
+                alt="Rectangle1798631"
+                class="signup-rectangle179"
+              />
+              <span class="signup-text24"><span>Privacy Policy</span></span>
+              <span class="signup-text26"><span>Support</span></span>
+              <span class="signup-text28"><span>Cookie policy</span></span>
+              <span class="signup-text30"><span>Terms of use</span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
