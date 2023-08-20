@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="/static/styles.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="e41_447">
+        <div class="e37_472"></div>
+        <div class="e41_466"></div>
+        <div class="e138_387">
+            <div class="section">
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/uranus.png" /> URANUS</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/saturn.png" /> SATURN</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/mars.png" /> MARS</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/jupiter.png" /> JUPITER</span>
+                    <div class="section__item">
+                        <div class="section__item"></div>
+                    </div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/neptune.png" /> NEPTUNE</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/mercury.png" /> MERCURY</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/wallpaperflare_7.png" style="width: 200px; height: auto;"/> EARTH</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/venus.png" /> VENUS</span>
+                    <div class="section__item"></div>
+                </div>
+            </div>
+        </div>
+        <div class="e138_386">
+            <div class="section">
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/uranus.png" /> URANUS</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/saturn.png" /> SATURN</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/mars.png" /> MARS</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/jupiter.png" /> JUPITER</span>
+                    <div class="section__item">
+                        <div class="section__item"></div>
+                    </div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/neptune.png" /> NEPTUNE</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/mercury.png" /> MERCURY</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/wallpaperflare_7.png" /> EARTH</span>
+                    <div class="section__item"></div>
+                </div>
+                <div class="section__item"><span class="section__item"><img alt="Image 1"
+                            src="/static/assets/venus.png" /> VENUS</span>
+                    <div class="section__item"></div>
+                </div>
+            </div>
+        </div>
+        <div class="e85_515"></div>
+        <div class="e205_242"></div>
+        <div class="e85_524"></div>
+        <div class="e157_181"><span class="e91_144"><a href="index.html">Search flights</a></span></div>
+        <div class="e205_240"></div>
+        <div class="e263_327"></div>
+        <div class="e137_334">
+            <div class="e137_335"></div><span class="e137_337">Space Odyssey </span>
+            <div class="e137_338"><span class="e137_339">About</span><span class="e137_340">Contact</span><span
+                    class="e137_341">Home</span></div><span class="e137_342">My profile</span>
+        </div>
+        <div class="e137_306">
+            <div class="e137_307"></div><span class="e137_308">© 2007–2023, Aviasales</span>
+            <div class="e137_309">
+                <div class="e137_310"></div>
+                <div class="e137_311"></div>
+                <div class="e137_312"></div><span class="e137_313">Privacy Policy</span><span class="e137_314">Support
+                </span><span class="e137_315">Cookie policy</span><span class="e137_316">Terms of use</span>
+            </div>
+        </div>
+        <div class="e85_522"></div><span class="e152_241">Origin</span><span class="e157_219">Destination</span><span
+            class="e157_200">Departure date</span>
+    </div>
+
+    <script>
+        document.querySelector(".e157_181").addEventListener("click", function () {
+            const referencePoint = document.querySelector(".e263_327").getBoundingClientRect().top;
+            const carousels = document.querySelectorAll(".section");
+            let selectedPlanets = [];
+
+            carousels.forEach(carousel => {
+                const items = carousel.querySelectorAll(".section__item");
+                items.forEach(item => {
+                    const itemTop = item.getBoundingClientRect().top;
+                    const itemBottom = item.getBoundingClientRect().bottom;
+                    if (itemTop <= referencePoint && itemBottom >= referencePoint) {
+                        // Extract the planet name from the text content
+                        const planetName = item.textContent.trim().split(" ")[0];
+                        selectedPlanets.push(planetName);
+                    }
+                });
+            });
+
+            alert("Selected planets: " + selectedPlanets.join(" and "));
+        });
+    </script>
+</body>
+
+</html>
