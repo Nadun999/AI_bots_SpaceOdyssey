@@ -1,0 +1,285 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.aboutus-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .aboutus-aboutus {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .aboutus-image10 {
+    top: 1097.16796875px;
+    left: -103.44482421875px;
+    width: 1077px;
+    height: 1766px;
+    position: absolute;
+  }
+  .aboutus-text {
+    top: 393px;
+    left: 133px;
+    color: rgba(255, 255, 255, 1);
+    width: 1175px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Light;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: 50px;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-fighter202461312801 {
+    top: 293px;
+    left: 574px;
+    width: 297px;
+    height: 121px;
+    position: absolute;
+  }
+  .aboutus-footer {
+    top: 959px;
+    left: 0px;
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(16, 27, 41, 1);
+  }
+  .aboutus-text02 {
+    top: 32.5px;
+    left: 642px;
+    color: rgba(255, 255, 255, 1);
+    width: 412px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-footer1 {
+    top: 5.41668701171875px;
+    left: 414.000244140625px;
+    width: 680.9993286132812px;
+    height: 27.0833740234375px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .aboutus-rectangle178 {
+    top: 11.73614501953125px;
+    left: 148.9999237060547px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .aboutus-rectangle180 {
+    top: 11.73614501953125px;
+    left: 488.999755859375px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .aboutus-rectangle179 {
+    top: 11.73614501953125px;
+    left: 288.99957275390625px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .aboutus-text04 {
+    top: 8.12506103515625px;
+    left: 328.99993896484375px;
+    color: rgba(255, 255, 255, 1);
+    width: 162px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text06 {
+    top: 6.31951904296875px;
+    left: 187.9999237060547px;
+    color: rgba(255, 255, 255, 1);
+    width: 120px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text08 {
+    top: 2.7083740234375px;
+    left: 517.9993896484375px;
+    color: rgba(255, 255, 255, 1);
+    width: 163px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text10 {
+    color: rgba(255, 255, 255, 1);
+    width: 149px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-header {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 92px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(15, 23, 36, 1);
+  }
+  .aboutus-text12 {
+    top: 33px;
+    left: 96px;
+    color: rgba(255, 255, 255, 1);
+    width: 242px;
+    height: auto;
+    position: absolute;
+    font-size: 22.399999618530273px;
+    font-style: SemiBold;
+    text-align: left;
+    font-family: Laila;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-group1 {
+    top: 46.5936279296875px;
+    left: 983.66845703125px;
+    width: 246.99996948242188px;
+    height: 21.00006866455078px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .aboutus-text14 {
+    top: 0.00006866455078125px;
+    left: 198.99996948242188px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16.517822265625px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text16 {
+    left: 93px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16.517822265625px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text18 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16.517822265625px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .aboutus-text20 {
+    top: 41px;
+    left: 1262px;
+    color: rgba(255, 255, 255, 1);
+    width: 121px;
+    height: auto;
+    position: absolute;
+    font-size: 16.520000457763672px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+  .profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+  }

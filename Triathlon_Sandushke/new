@@ -1,0 +1,79 @@
+<div>
+  <link href="./aboutUs.css" rel="stylesheet" />
+  <div class="aboutUs-container">
+    <div class="aboutUs-aboutUs">
+      <img
+        src="/image_10.png"
+        alt="image_10"
+        class="aboutUs-image_10"
+      />
+      <img
+        src="/rectangle16332-pg1k-200h.png"
+        alt="Rectangle16332"
+        class="aboutUs-rectangle1"
+      />
+      <div class="aboutUs-group21">
+        <img
+          src="/rectangle26333-mtom-500w.png"
+          alt="Rectangle26333"
+          class="aboutUs-rectangle2"
+        />
+        <img
+          src="/rectangle36333-x8qw-500w.png"
+          alt="Rectangle36333"
+          class="aboutUs-rectangle3"
+        />
+        <img
+          src="/rectangle56333-252n-200h.png"
+          alt="Rectangle56333"
+          class="aboutUs-rectangle5"
+        />
+        <span class="aboutUs-text"><span>Log in</span></span>
+        <span class="aboutUs-text02"><span>Email address</span></span>
+        <span class="aboutUs-text04"><span>Password</span></span>
+      </div>
+      <span class="aboutUs-text06"><span>About</span></span>
+      <span class="aboutUs-text08"><span>Contact</span></span>
+      <span class="aboutUs-text10"><span>Home</span></span>
+      <img
+        src="/rectangle46334-dz7b-200h.png"
+        alt="Rectangle46334"
+        class="aboutUs-rectangle4"
+      />
+      <img
+        src="/rectangle56337-jlwf-200h.png"
+        alt="Rectangle56337"
+        class="aboutUs-rectangle51"
+      />
+      <span class="aboutUs-text12"><span>Sign Up</span></span>
+
+
+      <div class="aboutUs-footer">
+        <span class="aboutUs-text16">
+          <span>© 2007–2023, Aviasales</span>
+        </span>
+        <div class="aboutUs-footer1">
+          <img
+            src="/rectangle1788632-nrpa-200w.png"
+            alt="Rectangle1788632"
+            class="aboutUs-rectangle178"
+          />
+          <img
+            src="/rectangle1808632-t4i7-200w.png"
+            alt="Rectangle1808632"
+            class="aboutUs-rectangle180"
+          />
+          <img
+            src="/rectangle1798632-2k0y-200w.png"
+            alt="Rectangle1798632"
+            class="aboutUs-rectangle179"
+          />
+          <span class="aboutUs-text18"><span>Privacy Policy</span></span>
+          <span class="aboutUs-text20"><span>Support</span></span>
+          <span class="aboutUs-text22"><span>Cookie policy</span></span>
+          <span class="aboutUs-text24"><span>Terms of use</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

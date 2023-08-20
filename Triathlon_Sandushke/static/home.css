@@ -1,0 +1,337 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.homepage-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .homepage-homepage {
+    width: 100%;
+    height: 1024px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background-color: rgba(180, 180, 180, 1);
+  }
+  .homepage-wallpaperflarecomwallpaper1 {
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1024px;
+    position: absolute;
+  }
+  .homepage-text {
+    top: 48px;
+    left: 1197px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 23px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text02 {
+    top: 48px;
+    left: 1065px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 23px;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text04 {
+    top: 49px;
+    left: 945px;
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    position: absolute;
+    font-size: 23px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text06 {
+    top: 363px;
+    left: 584px;
+    color: rgba(255, 255, 255, 1);
+    width: 834px;
+    height: auto;
+    position: absolute;
+    font-size: 96px;
+    font-style: Extra Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text08 {
+    top: 503px;
+    left: 584px;
+    color: rgba(255, 255, 255, 1);
+    width: 851px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Light;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 300;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-buttonhome {
+    top: 627px;
+    left: 584px;
+    width: 201px;
+    height: 52px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(217, 217, 217, 1);
+  }
+  .homepage-text10 {
+    top: 11.55555534362793px;
+    left: 27px;
+    color: rgba(0, 0, 0, 1);
+    width: 148px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    font-style: Extra Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-logo-sample-by-tailor-brands81 {
+    top: 35px;
+    left: 35px;
+    width: 185px;
+    height: 58px;
+    position: absolute;
+  }
+  .homepage-text12 {
+    top: 45px;
+    left: 1311px;
+    color: rgba(255, 255, 255, 1);
+    width: 121px;
+    height: auto;
+    position: absolute;
+    font-size: 23px;
+    font-style: Semi Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text14 {
+    top: 629px;
+    left: 865px;
+    color: rgba(255, 255, 255, 1);
+    width: 289px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Extra Bold;
+    text-align: center;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-group135 {
+    top: 640px;
+    left: 1100px;
+    width: 30px;
+    height: 29px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .homepage-line38 {
+    top: 8px;
+    left: 8px;
+    width: 16px;
+    height: 1px;
+    position: absolute;
+  }
+  .homepage-line39 {
+    top: 13.843106269836426px;
+    left: 21.960975646972656px;
+    width: 15px;
+    height: 1px;
+    position: absolute;
+  }
+  .homepage-footer {
+    top: 959px;
+    left: 0px;
+    width: 1440px;
+    height: 65px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(16, 27, 41, 1);
+  }
+  .homepage-text16 {
+    top: 32.5px;
+    left: 642px;
+    color: rgba(255, 255, 255, 1);
+    width: 412px;
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-footer1 {
+    top: 5.416748046875px;
+    left: 414.0002136230469px;
+    width: 680.9994506835938px;
+    height: 27.08333396911621px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .homepage-rectangle178 {
+    top: 11.736083984375px;
+    left: 148.9996795654297px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .homepage-rectangle180 {
+    top: 11.736083984375px;
+    left: 488.999755859375px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .homepage-rectangle179 {
+    top: 11.736083984375px;
+    left: 288.9996032714844px;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    border-radius: 360px;
+  }
+  .homepage-text18 {
+    top: 8.125px;
+    left: 328.99969482421875px;
+    color: rgba(255, 255, 255, 1);
+    width: 162px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text20 {
+    top: 6.319580078125px;
+    left: 187.99989318847656px;
+    color: rgba(255, 255, 255, 1);
+    width: 120px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text22 {
+    top: 2.708251953125px;
+    left: 517.9994506835938px;
+    color: rgba(255, 255, 255, 1);
+    width: 163px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .homepage-text24 {
+    color: rgba(255, 255, 255, 1);
+    width: 149px;
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Semi Bold;
+    text-align: left;
+    font-family: Inter;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  
+.book-flight-button,
+.explore-planets-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
