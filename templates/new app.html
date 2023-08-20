@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/static/styles.css" rel="stylesheet"/>
+<title>Document</title>
+</head>
+<body>
+<div class="e41_447">
+<div class="e37_472"></div>
+<div class="e41_466"></div>
+<div class="e138_386">
+<div class="section">
+<div class="section__item"><span class="e138_362">URANUS</span>
+<div class="e138_363"></div>
+</div>
+<div class="section__item"><span class="e138_365">SATURN</span>
+<div class="e138_366"></div>
+</div>
+<div class="section__item"><span class="e138_368">MARS</span>
+<div class="e138_369"></div>
+</div>
+<div class="section__item"><span class="e138_371">VENUS</span>
+<div class="e138_372">
+<div class="e138_373"></div>
+</div>
+</div>
+<div class="section__item"><span class="e138_375">NEPTUNE</span>
+<div class="e138_376"></div>
+</div>
+<div class="section__item"><span class="e138_378">MERCURY</span>
+<div class="e138_379"></div>
+</div>
+<div class="e138_380">
+<div class="e138_382"></div>
+</div>
+<div class="e138_383">
+<div class="e138_385"></div>
+</div>
+</div>
+</div>
+<div class="e138_387">
+<div class="section">
+<div class="section__item"><span class="e138_200">URANUS</span>
+<div class="e156_170"></div>
+</div>
+<div class="section__item"><span class="e138_349">SATURN</span>
+<div class="e156_173"></div>
+</div>
+<div class="section__item"><span class="e156_181">MARS</span>
+<div class="e156_174"></div>
+</div>
+<div class="section__item"><span class="e138_347">VENUS</span>
+<div class="e138_348">
+<div class="e156_175"></div>
+</div>
+</div>
+<div class="section__item"><span class="e138_354">NEPTUNE</span>
+<div class="e152_191"></div>
+</div>
+<div class="e138_346"><span class="e138_345">MERCURY</span>
+<div class="e156_176"></div>
+</div>
+<div class="e138_352">
+<div class="e137_381"></div>
+</div>
+<div class="e138_358">
+<div class="e156_177"></div>
+</div>
+</div>
+</div>
+<div class="e85_515"></div>
+<div class="e205_242"></div>
+<div class="e85_524"></div>
+<div class="e157_181"><span class="e91_144">Search flights</span></div>
+<div class="e205_240"></div>
+<div class="e263_327"></div>
+<div class="e137_334">
+<div class="e137_335"></div><span class="e137_337">Space Odyssey </span>
+<div class="e137_338"><span class="e137_339">About</span><span class="e137_340">Contact</span><span class="e137_341">Home</span></div><span class="e137_342">My profile</span>
+</div>
+<div class="e137_306">
+<div class="e137_307"></div><span class="e137_308">© 2007–2023, Aviasales</span>
+<div class="e137_309">
+<div class="e137_310"></div>
+<div class="e137_311"></div>
+<div class="e137_312"></div><span class="e137_313">Privacy Policy</span><span class="e137_314">Support </span><span class="e137_315">Cookie policy</span><span class="e137_316">Terms of use</span>
+</div>
+</div>
+<div class="e85_522"></div><span class="e152_241">Origin</span><span class="e157_219">Destination</span><span class="e157_200">Departure  date</span>
+</div>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    
+    function verticalCarousel(container) {
+        container.addEventListener("wheel", function(event) {
+            // Logging deltaY value to console
+            console.log("Wheel event deltaY:", event.deltaY);
+
+            let scrollAmount = 0;
+            const slideTimer = setInterval(function(){
+                container.scrollTop += event.deltaY > 0 ? 10 : -10;
+                scrollAmount += 10;
+                if(scrollAmount >= Math.abs(event.deltaY)){
+                    clearInterval(slideTimer);
+                }
+            }, 5);
+            // Prevent the default scrolling behavior
+            event.preventDefault();
+        });
+    }
+
+    verticalCarousel(document.querySelector(".e138_386"));
+    verticalCarousel(document.querySelector(".e138_387"));
+});
+
+</script>
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Function to handle vertical carousel
+        function verticalCarousel(container) {
+            let startY;
+            let startScrollTop;
+            let isDragging = false;
+
+            container.addEventListener("mousedown", function(event) {
+                startY = event.clientY;
+                startScrollTop = container.scrollTop;
+                isDragging = true;
+            });
+
+            document.addEventListener("mousemove", function(event) {
+                if (!isDragging) return;
+                const deltaY = event.clientY - startY;
+                container.scrollTop = startScrollTop - deltaY;
+            });
+
+            document.addEventListener("mouseup", function() {
+                isDragging = false;
+            });
+
+            // Touch events for mobile
+            container.addEventListener("touchstart", function(event) {
+                startY = event.touches[0].clientY;
+                startScrollTop = container.scrollTop;
+                isDragging = true;
+            });
+
+            document.addEventListener("touchmove", function(event) {
+                if (!isDragging) return;
+                const deltaY = event.touches[0].clientY - startY;
+                container.scrollTop = startScrollTop - deltaY;
+            });
+
+            document.addEventListener("touchend", function() {
+                isDragging = false;
+            });
+        }
+
+        // Bind vertical carousel to divs
+        verticalCarousel(document.querySelector(".e138_386"));
+        verticalCarousel(document.querySelector(".e138_387"));
+    });
+</script> -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+    function setupCarousel(carouselClass, itemsClass) {
+        let carouselContainer = document.querySelector(carouselClass);
+        let carouselItems = document.querySelector(itemsClass);
+        let currentPosition = 0;
+        const stepSize = 200;  // Amount of pixels to move on each scroll
+
+        carouselContainer.addEventListener('wheel', function(event) {
+            if (event.deltaY > 0) {
+                // Scroll Down
+                currentPosition -= stepSize;
+            } else {
+                // Scroll Up
+                currentPosition += stepSize;
+            }
+            
+            // Apply the new position
+            carouselItems.style.transform = 'translateY(' + currentPosition + 'px)';
+            
+            // Prevent default scroll behavior
+            event.preventDefault();
+        });
+    }
+
+    setupCarousel('.e41_447', '.e138_360');
+    setupCarousel('.e138_387', '.e138_359');
+});
+</script></body>
+</html>
